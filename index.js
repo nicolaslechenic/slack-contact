@@ -1,1 +1,1 @@
-console.log(process.env.MY_API_KEY);
+console.log(MY_API_KEY);

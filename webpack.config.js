@@ -8,9 +8,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      'process.env': {
-        'MY_API_KEY': process.env.MY_API_KEY || 'plop'
-      }
+      MY_API_KEY: process.env.MY_API_KEY || 'plop'
     })
   ]
 };
