@@ -1,6 +1,6 @@
 const API_LINK = "https://slack.com/api/";
 
-document.addEventListener('click', function() {
+document.addEventListener('click', () => {
   let message = document.getElementById('message').value;
 
   let data = {
@@ -18,9 +18,11 @@ document.addEventListener('click', function() {
     contentType: "application/json; charset=utf-8",
     dataType: "json"
   }).done(function (response) {
-    alert('Youpi : ' + response);
+    console.log(response);
+    alert('Youpi');
   }).fail(function (error) {
-    alert('Oups : ' + error);
+    console.log(error);
+    alert('Oups');
   })
 });
 
