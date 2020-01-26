@@ -1,0 +1,20 @@
+{
+  "name": "slack-contact",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaslechenic/slack-contact.git"
+  },
+  "author": "Nicolas LE CHENIC",
+  "bugs": {
+    "url": "https://github.com/nicolaslechenic/slack-contact/issues"
+  },
+  "homepage": "https://github.com/nicolaslechenic/slack-contact#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
