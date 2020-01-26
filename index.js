@@ -1,6 +1,6 @@
 const API_LINK = "https://slack.com/api/";
 
-document.addEventListener('click', () => {
+document.getElementById('submit').addEventListener('click', () => {
   let message = document.getElementById('message').value;
 
   let data = {
