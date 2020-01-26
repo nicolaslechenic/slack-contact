@@ -8,7 +8,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      MY_API_KEY: JSON.stringify(process.env.MY_API_KEY) || 'plop'
+      SLACK_TOKEN: JSON.stringify(process.env.SLACK_TOKEN)
     })
   ]
 };
