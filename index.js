@@ -11,12 +11,16 @@ document.addEventListener('click', function() {
   $.ajax({
     url: API_LINK + 'chat.postMessage',
     type: "POST",
+    headers: {
+      "Authorization": "Bearer " + SLACK_TOKEN
+    },
     data: JSON.stringify(data),
     contentType: "application/json; charset=utf-8",
-    dataType: "json",
-    success: function(){
-      alert('Message envoyé !')
-    }
+    dataType: "json"
+  }).done(function (response) {
+    alert('Youpi : ' + response);
+  }).fail(function (error) {
+    alert('Oups : ' + error);
   })
 });
 
