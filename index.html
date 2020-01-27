@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <title>Slack API</title>
   <script type="text/javascript" src="jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <input type="text" id="message" />
-  <button id="submit">
-    Envoyer un message
-  </button>
-  <br/>
-  <div id="wrapper"></div>
+  <div id="wrapper">
+    <label>Email</label><br/>
+    <input type="text" id="email" /><br/>
+    <label>Message</label><br/>
+    <textarea id="message" cols="30" rows="10"></textarea><br/>
+    <button id="submit" class='btn btn-primary'>
+      Contacter
+    </button>
+  </div>
 
   <script type="text/javascript" src="bundle.js"></script>
 </body>

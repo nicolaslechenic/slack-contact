@@ -1,0 +1,32 @@
+#wrapper {
+  background-color: #DEDEDE;
+  border-radius: 5px;
+  border: 1px solid #CDCDCD;
+  width: 450px;
+  margin: 20px auto;
+}
+
+#wrapper label {
+  color: #333;
+  font-weight: bold;
+  margin: 10px 25px;
+}
+
+#wrapper input {
+  width: 400px;
+  margin-left: 25px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+#wrapper textarea {
+  width: 400px;
+  margin-left: 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+#wrapper button {
+  margin: 10px 25px;
+}
